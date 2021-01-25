@@ -7,7 +7,7 @@ class Link {
         this.animations = [];
         
                                                           // x, y, width, height, frameCount, frameDuration, spacing, reverse, loop
-        this.animations.push(new Animator(this.spritesheet, 1, 58, 17, 24, 5, 0.1, 4, true, true));
+        this.animations.push(new Animator(this.spritesheet, 1, 58, 17, 24, 5, 1, 4, true, true));
     };
 
     update() {
